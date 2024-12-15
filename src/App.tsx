@@ -203,10 +203,6 @@ function App() {
             />
           </div>
         </section>
-
-        {/* About Section */}
-
-        {/* Products Section */}
         <section id="products" className="smart-solutions">
           <h2>Our Smart Solutions</h2>
           <div className="solutions-grid">
@@ -224,27 +220,7 @@ function App() {
           </div>
         </section>
 
-        {/* Contact Section */}
-        <section id="contact" className="cta-section">
-          <div className="cta-container">
-            <div className="cta-content animate-fade-in-left">
-              <h2>Ready to Upgrade Your Business?</h2>
-              <p>
-                Request a demo today and discover how InTech can transform your
-                workplace!
-              </p>
-              <button className="cta-demo-button">Request Demo Now</button>
-            </div>
-            <div className="cta-image animate-fade-in-right">
-              <img
-                src="src/image/demo-picture.png" // Replace with the actual image path
-                alt="Transform Your Workplace"
-              />
-            </div>
-          </div>
-        </section>
         <section id="about" className="about-section">
-          <h2>About InTech</h2>
           <div className="about-content">
             <img
               src="https://s3-alpha-sig.figma.com/img/4537/05a9/b0c12226f00763fd5b929805c82b6e4c?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qQrBHnTgbjKXUjAEdJlmBcpDxwnjI7aeBxYNfU3qjT8JwQGBiSdSpDhViczVFuGAV7q~VPU-tyPC-qKcdPni7iIThJlHPjoB-q5OSTbnsUzTXmJwT8d3ydEUTJB9JAGL2jWB4usCQY~cCYfiHinSUh7~YxFKuhoaFAH6WRThl4N-HrQYvJwNs-0WOl-wlKspuXiiGFkUPnHMXd5IsL5ztWVa298dq79W2nkckTA1Z80DJp0ClwK7nE-PyRuaGbxmGp2JOMjpqhCJR3HGqeDAW6weDXLtzBO8msCw6pO1y3tvQi4pgvSStbPkXXNbXyk~loeAQ0eYY9Cq8NJ3zraBLA__"
@@ -252,6 +228,8 @@ function App() {
               className="about-image"
             />
             <div className="about-text">
+              <h2>About InTech</h2>
+
               <h3>Mission</h3>
               <p>
                 Revolutionize workplace efficiency and security through
