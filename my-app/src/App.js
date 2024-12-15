@@ -4,19 +4,19 @@ import groupImage from './assets/images/Group.png';
 import ML from './assets/images/ML.png';
 import SL from './assets/images/SL.png';
 import demoImage from './assets/images/demo-picture.png'; // Correct import path
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faTelegram,
+//   faInstagram,
+//   faFacebook,
+//   faXTwitter,
+// } from "@fortawesome/free-brands-svg-icons";
+// {/* <FontAwesomeIcon icon={faCoffee} /> */}
 
-<FontAwesomeIcon icon={faCoffee} />
 
 
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTelegram,
-  faInstagram,
-  faFacebook,
-  faXTwitter,
-} from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   const scrollToSection = (sectionId) => {
@@ -120,7 +120,7 @@ function Footer() {
             <br />
             012 345 678
           </address>
-          <div className="social-icons">
+          {/* <div className="social-icons">
             <a href="https://t.me" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faTelegram} className="social-icon" />
             </a>
@@ -145,7 +145,7 @@ function Footer() {
             >
               <FontAwesomeIcon icon={faXTwitter} className="social-icon" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
