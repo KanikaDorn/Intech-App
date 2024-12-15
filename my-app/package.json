@@ -20,6 +20,12 @@
       "react-app/jest"
     ]
   },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
